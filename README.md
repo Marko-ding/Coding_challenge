@@ -27,13 +27,13 @@ Create 3 LiveView Controller (Pages), of which the last one (Page C) consists of
 ### Page B
 * Route: ```/page_b```
 * Title: "Page B"
-* Content: Links to Page A and Page C, Tab 2
+* Content: Links to [Page A] and [Page C: Tab 2]
 ### Page C (Tabs)
 * Routes: ```/page_c```, ```/page_c/tab_1``` and ```/page_c/tab_2```.
 * Title: "Page C, Tab 1" or "Page C, Tab 2"
 * Content:
   * Two Tabs (Tab 1 and Tab 2) realized as LiveComponent (!)
-  * Tab 1 has a link to Page B, Tab 2 has a link to Page A.
+  * Tab 1 has a link to [Page B], Tab 2 has a link to [Page A].
 
 You should be able to switch between the tabs.
 Switching between Tabs, changes the URL.
