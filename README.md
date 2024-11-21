@@ -15,7 +15,7 @@ Please provide us at the end with git repo to study your solution.
 The conversation after the challenge is as meaningful as the code. We would like to hear how you tried to solve the problem, what you have learned, and where you failed.
 
 # Setup
-* Generate a new repo with Phoenix 1.7 and Liveview 0.18
+* Generate a new repo with Phoenix 1.7.14 and Liveview 0.20.17
 * Setup Phoenix
 ## Pages
 Create 3 LiveView Controller (Pages), of which the last one (Page C) consists of two tabs.
@@ -23,7 +23,7 @@ Create 3 LiveView Controller (Pages), of which the last one (Page C) consists of
 ### Page A
 * Route: ```/page_a```
 * Title: "Page A"
-* Content: Links to Page B and Page C, Tab 1
+* Content: Links to Page B and Page C: tab 1
 ### Page B
 * Route: ```/page_b```
 * Title: "Page B"
@@ -62,7 +62,7 @@ Now, we want to track user engagement. We store for every pageview the following
 * Engagement Time
 
 ### What is a pageview?
-Viewing Page A or Page B` triggers a pageview.
+Viewing Page A or Page B triggers a pageview.
 Viewing Tab 1 or Tab 2 on Page C triggers a pageview.
 ### What is the engagement_time
 We are interested in how much time is spent on a page to understand the behaviour better.
