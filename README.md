@@ -23,7 +23,7 @@ Create 3 LiveView Controller (Pages), of which the last one (Page C) consists of
 ### Page A
 * Route: ```/page_a```
 * Title: "Page A"
-* Content: Links to Page B and Page C: tab 1
+* Content: Links to (Page B) and (Page C: tab 1)
 ### Page B
 * Route: ```/page_b```
 * Title: "Page B"
